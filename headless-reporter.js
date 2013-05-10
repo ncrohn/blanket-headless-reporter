@@ -6,6 +6,7 @@ define([],function meltreporter(){
     isHeadless = true;
   }
 
+  // Borrowed from colors.js by marak: https://github.com/Marak/colors.js/blob/master/colors.js#L61
   var styles = {
     //styles
     'bold'      : ['\033[1m',  '\033[22m'],
